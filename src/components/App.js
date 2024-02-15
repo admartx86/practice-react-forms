@@ -1,11 +1,18 @@
 import React, { Component } from "react";
-import Form from "./Form";
+import { UncontrolledLoginForm } from "./UncontrolledLoginForm";
+import { ControlledLoginForm1 } from "./ControlledLoginForm1";
+import { ControlledLoginForm2 } from "./ControlledLoginForm2";
 class App extends Component {
     render() {
         return(
             <div>
-                Hello World!
-                <Form/>
+                <h1>React Form Practice</h1>
+                <h2>Uncontrolled Login Form</h2>
+                <UncontrolledLoginForm/>
+                <h2>Controlled Login Form 1</h2>
+                <ControlledLoginForm1/>
+                <h2>Controlled Login Form 2</h2>
+                <ControlledLoginForm2/>
             </div>
         )
     }
