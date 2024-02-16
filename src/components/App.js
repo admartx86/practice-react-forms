@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { UncontrolledLoginForm } from "./UncontrolledLoginForm";
 import { ControlledLoginForm1 } from "./ControlledLoginForm1";
 import { ControlledLoginForm2 } from "./ControlledLoginForm2";
+import { PracticeForm } from "./PracticeForm";
 class App extends Component {
     render() {
         return(
@@ -13,6 +14,8 @@ class App extends Component {
                 <ControlledLoginForm1/>
                 <h2>Controlled Login Form 2</h2>
                 <ControlledLoginForm2/>
+                <h2>Practice Form</h2>
+                <PracticeForm/>
             </div>
         )
     }
